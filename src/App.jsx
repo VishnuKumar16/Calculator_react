@@ -20,7 +20,9 @@ const Calculator = () => {
   };
 
   return (
-    <div className="container mx-auto mt-8 p-4 bg-gray-100 shadow-md max-w-xs">
+    <div className='w-full h-screen bg-slate-600'>
+      <h1 className='text-center p-8 text-3xl font-bold text-yellow-600'>CALCULATOR</h1>
+      <div className="container mx-auto mt-8 p-4 bg-gray-300 shadow-md max-w-xs">
       <div className="mb-4">
         <input
           type="text"
@@ -72,6 +74,8 @@ const Calculator = () => {
         ))}
       </div>
     </div>
+    </div>
+    
   );
 };
 
